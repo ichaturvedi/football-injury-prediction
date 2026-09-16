@@ -13,8 +13,7 @@ The framework combines:
 
 The code was developed as part of research into trajectory-based football injury risk analysis and temporal modelling of multi-agent sports systems.
 
-[![Watch Demo](demo.mp4)
-``
+<img width="320" height="180" alt="Image" src="https://github.com/user-attachments/assets/c7c7d3f7-06b3-4dd0-8c9c-49325808516c" />
 ---
 
 # Overview
