@@ -11,45 +11,15 @@ The framework combines:
 - Injury-associated player ranking
 - Optional sensor-fusion using a football injury dataset
 
-The code was developed as part of research into trajectory-based football injury risk analysis and temporal modelling of multi-agent sports systems. The red box in this demo is trying to track players with risk of injury.
+The code was developed as part of research into trajectory-based football injury risk analysis and temporal modelling of multi-agent sports systems. 
 
-<img width="320" height="180" alt="Image" src="https://github.com/user-attachments/assets/c7c7d3f7-06b3-4dd0-8c9c-49325808516c" />
 ---
 
-# Overview
+# Demo
 
-The complete workflow is shown below:
+The red box in this demo is trying to track players with risk of injury.
 
-```text
-Football Video
-      │
-      ▼
-ByteTrack
-(Multi-Player Tracking)
-      │
-      ▼
-Player Trajectories
-      │
-      ▼
-Social-LSTM
-(Trajectory Forecasting)
-      │
-      ▼
-Hydraulic Response Model
-(Simulink)
-      │
-      ▼
-Corrected Trajectories
-      │
-      ▼
-Speed / Agility / Stress
-      │
-      ▼
-Risk Indicators
-      │
-      ▼
-Player Ranking
-```
+<img width="320" height="180" alt="Image" src="https://github.com/user-attachments/assets/c7c7d3f7-06b3-4dd0-8c9c-49325808516c" />
 
 ---
 
