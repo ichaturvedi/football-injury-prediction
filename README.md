@@ -23,29 +23,6 @@ The red box in this demo is trying to track players with risk of injury.
 
 ---
 
-# Repository Contents
-
-```text
-football-injury-prediction/
-
-├── bytetracker/
-├── applyPlayerParameterSimulinkResponse.m
-├── assignStableTeamColoursFromVideo.m
-├── buildSocialSequences.m
-├── evaluateTrajectoryAccuracy.m
-├── example_player_parameter_simulink_run.m
-├── football_social_lstm_multiple_csv.mat
-├── hydlib.slx
-├── makeOccupancyGrid.m
-├── preparePlayerPositions.m
-├── runFootballByteSocialSimulinkParameters.m
-├── sldemo_hydcyl4.slx
-├── sldemo_hydcyl4.slxc
-└── sldemo_hydcyl_data.mat
-```
-
----
-
 # Important Notes
 
 This repository does **not** contain:
