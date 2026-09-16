@@ -11,7 +11,7 @@ The framework combines:
 - Injury-associated player ranking
 - Optional sensor-fusion using a football injury dataset
 
-The code was developed as part of research into trajectory-based football injury risk analysis and temporal modelling of multi-agent sports systems.
+The code was developed as part of research into trajectory-based football injury risk analysis and temporal modelling of multi-agent sports systems. The red box in this demo is trying to track players with risk of injury.
 
 <img width="320" height="180" alt="Image" src="https://github.com/user-attachments/assets/c7c7d3f7-06b3-4dd0-8c9c-49325808516c" />
 ---
