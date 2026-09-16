@@ -1,4 +1,3 @@
-# football-injury-prediction
 # Football Injury Prediction using Trajectory Forecasting and Hydraulic Correction
 
 This repository contains MATLAB and Simulink code for analysing football player trajectories, forecasting future player movement using Social-LSTM, applying a physics-inspired hydraulic correction model, and generating player-level injury risk indicators.
@@ -277,45 +276,6 @@ Trajectory-derived indicators such as:
 are mapped into hydraulic model parameters.
 
 The resulting Simulink response produces a temporal correction that modifies the forecast trajectory.
-
----
-
-## Risk Indicators
-
-The framework computes interpretable trajectory-derived indicators such as:
-
-- Speed
-- Agility
-- Stress
-- Hydraulic correction distance
-
-These indicators can be used for player-level ranking and injury-associated event analysis.
-
----
-
-# Running the Pipeline
-
-A typical workflow is:
-
-```matlab
-% Prepare player tracks
-preparePlayerPositions
-
-% Generate occupancy grids
-makeOccupancyGrid
-
-% Build Social-LSTM windows
-buildSocialSequences
-
-% Assign team membership
-assignStableTeamColoursFromVideo
-
-% Apply hydraulic correction
-runFootballByteSocialSimulinkParameters
-
-% Evaluate performance
-evaluateTrajectoryAccuracy
-```
 
 ---
 
